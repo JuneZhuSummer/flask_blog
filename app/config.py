@@ -1,5 +1,4 @@
 
-
 class Config:
     # 配置数据库
     # ORM模型

@@ -3,9 +3,9 @@
 """
 from flask import Blueprint
 
-index = Blueprint('index', __name__)
+backstage = Blueprint('backstage', __name__)
 
 
-@index.route('/')
+@backstage.route('/')
 def index():
     return "这是管理员主页"
